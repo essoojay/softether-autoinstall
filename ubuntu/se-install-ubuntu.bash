@@ -62,6 +62,7 @@ fi
 # Download SoftEther | Version 4.34 | Build 9745
 printf "\nDownloading release: ${RED}4.34 RTM${NC} | Build ${RED}9745${NC}\n\n"
 wget -O vpnserver.tar.gz wget https://www.softether-download.com/files/softether/v4.44-9807-rtm-2025.04.16-tree/Linux/SoftEther_VPN_Server/64bit_-_Intel_x64_or_AMD64/softether-vpnserver-v4.44-9807-rtm-2025.04.16-linux-x64-64bit.tar.gz
+tar -zxf vpnserver.tar.gz
 cd vpnserver
 echo $'1\n1\n1' | make &&
 cd /tmp/softether-autoinstall && mv vpnserver/ /opt
