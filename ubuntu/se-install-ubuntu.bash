@@ -75,7 +75,7 @@ do
     case $opt in
         "Yes")
         apt install -y dnsmasq
-        wget -O dnsmasq.conf https://raw.githubusercontent.com/icoexist/softether-autoinstall/master/dnsmasq.conf
+        wget -O dnsmasq.conf https://raw.githubusercontent.com/essoojay/softether-autoinstall/refs/heads/master/dnsmasq.conf
         rm /etc/dnsmasq.conf && mv dnsmasq.conf /etc/dnsmasq.conf
         wget -O vpnserver-init-bridge https://raw.githubusercontent.com/icoexist/softether-autoinstall/master/vpnserver-init-bridge > /dev/null 2>&1
         mv vpnserver-init-bridge /etc/init.d/vpnserver
