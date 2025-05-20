@@ -95,7 +95,7 @@ Check out the forum post [here](https://forum.icoexist.io/t/how-to-use-softether
 ## Uninstall SE-VPN Server [Ubuntu Only]
 As of now, this bash script will only work with Ubuntu due to the use of `update-rc.d`.
 ```
-wget -O se-uninstall https://raw.githubusercontent.com/icoexist/softether-autoinstall/master/ubuntu/se-uninstall.bash && chmod 770 se-uninstall && ./se-uninstall
+wget -O se-uninstall https://raw.githubusercontent.com/essoojay/softether-autoinstall/refs/heads/master/ubuntu/se-uninstall.bash && chmod 770 se-uninstall && ./se-uninstall
 ```
 
 ## Configure SoftEther
