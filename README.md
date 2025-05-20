@@ -46,7 +46,7 @@ By default, the IP addresses handed out by dnsmasq will be 10.42.10.10 - 10.42.1
 ### Installation (Ubuntu)
 There's two methods of doing this. If you've already set up the SoftEther VPN Server, use the script below.
 ``` bash
-wget -O se-install https://raw.githubusercontent.com/icoexist/softether-autoinstall/master/ubuntu/se-install-ubuntu.bash && chmod +x se-install && ./se-install
+wget -O se-install https://raw.githubusercontent.com/essoojay/softether-autoinstall/refs/heads/master/ubuntu/se-install-ubuntu.bash && chmod +x se-install && ./se-install
 ```
 
 If you are just now installing SoftEther VPN Server, then select option 1 when asked "Are you going to use the bridge option on the VPN server?".
